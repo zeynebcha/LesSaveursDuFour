@@ -1,0 +1,18 @@
+Nom,Categorie,Description,Prix,Ref,Stock,"Image "
+Baguette,0,"Baguette classique",1,P01,47,Baguette.png
+"Baguette tradition",0,"Baguette tradition",1.20,P02,40,Tradition.png
+"Pain campagne",0,"Pain campagne pour la famille",4,P03,5,PainCampagne.png
+"Pain de mie",0,"Pour les amoureux de la mie",3.50,P04,4,PainDeMie.png
+"Pain aux figues",0,"Le pain que vous adorez, mais avec des fruits",4.50,P05,3,PainAuxFigues.png
+"Pain au chocolat",1,"Votre péché mignon",1.10,V01,19,PainAuChocolat.png
+Croissant,1,"Le classique",1,V02,35,Croissant.png
+"Chausson aux pommes",1,"Pour les amoureux de la compote",1.10,V03,25,ChaussonsAuxPommes.png
+"Pain aux raisins",1,"Pain au raisin",1.10,V04,25,PainAuxRaisins.png
+Beignet,1,"Le beignet fourré au chocolat",1.30,V05,20,Beignets.png
+"Eclair au chocolat",2,"L'éclair, nappé de chocolat",2.50,S01,14,EclairAuChocolat.png
+Paris-Brest,2,"La célèbre patisserie célébrant la course mythique",3,S02,15,ParisBrest.png
+Religieuse,2,"Pour les amoureux de chocolat et de crême",3,S03,10,Religieuse.png
+Moeleux,2,"Célébrons le chocolat",3,S04,15,Moelleux.png
+"Tarte au citron meringué",2,"Un zeste de citron, une meringue",3.50,S05,10,TarteAuCitronMeringué.png
+
+

@@ -1,0 +1,26 @@
+[
+    {
+        "Nom": "Bauss",
+        "Prenom": "Cyril",
+        "Genre": "case 1",
+        "Email": "cyril@gmail.com",
+        "Phone": "0611111111",
+        "Date": "2002-01-01",
+        "Adresse": "rue de blabla",
+        "Metier": "etu",
+        "Pseudo": "cyril",
+        "Mdp": "abc"
+    },
+    {
+        "Nom": "Baussart",
+        "Prenom": "Cyril",
+        "Genre": "Homme",
+        "Email": "cyril.baussart@orange.fr",
+        "Phone": "0155555555",
+        "Date": "2000-01-01",
+        "Adresse": "141 rue de truc",
+        "Metier": "chomeur",
+        "Pseudo": "Cycy12",
+        "Mdp": "abc"
+    }
+]

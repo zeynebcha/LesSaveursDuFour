@@ -1,0 +1,432 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background-color: #141414;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+body .page{
+    margin: 20px 80px;
+}
+
+/* Barre de navigation */
+
+nav{
+    position: fixed;
+    width: 100%;
+    display:flex;
+    z-index: 10;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #141414;
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+    background: rgba(22, 22, 22, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo, #logo{
+    height: 50px;
+}
+
+nav .onglets, #MenuHaut{
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 5px;
+}
+ 
+nav .onglets a, #MenuHaut a {
+    cursor:pointer;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav .onglets a:hover, #MenuHaut a:hover {
+    background-color: #0056b3;
+}
+
+nav .boutons, #boutonsD{
+    padding: 13px 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+nav .boutons button, #boutonsD .bouton{
+    padding: 13px 20px;
+    color: #fff;
+    border:none;
+    font-size: 15px;
+    cursor:pointer;
+    outline:none;
+   
+    border-radius: 5px;
+}
+
+
+nav .boutons .login{
+    background-color: #f54266;
+    margin-right: 10px;
+    padding: 5px 15px;
+}
+
+ .boutonRose {
+    display: inline-block;
+    position: relative;
+    padding: 5px 10px;
+    background-color: #f54266;  
+    border-radius: 5px;
+}
+.boutonRose a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.boutonRose img#panier {
+    width: 40px; 
+    height: auto;
+    vertical-align: middle;
+}
+
+.boutonRose .box {
+    display: none;  
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    top: 100%;
+    right: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.boutonRose:hover .box {
+    display: block;
+}
+
+.boutonRose .box iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+  /* Fin de la Barre de navigation */
+
+    /* Pour le header */
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+}
+
+header h1, header h4, header button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+header h1 {
+    top: 30%;
+    font-size: 3em;
+    margin: 0;
+}
+
+header h4 {
+    top: 45%;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+header button {
+    top: 60%;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background: #ff3366;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+    /*Fin HEADER*/
+
+
+    /*Notre Boulangerie*/
+
+   
+.section-text {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+   
+}
+
+.section-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.section-text h1,
+.section-text p {
+    position: relative;
+    z-index: 2;
+}
+
+.section-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.section-text p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+ /*FIN Notre Boulangerie*/
+
+/* Styles pour la section avec image de fond */
+.section-background {
+    position: relative;
+   
+}
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent noir */
+    border-radius: 15px;
+}
+
+.presentation .image-container,
+.presentation .text-container {
+    width: 700px; /* Largeur fixe pour garantir que les deux conteneurs ont la même taille */
+    height: 700px; /* Hauteur fixe pour garantir une forme carrée */
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.presentation .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.presentation .text-container {
+    background-color: #e57373;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-sizing: border-box; /* Inclut le padding dans la taille totale */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.presentation .text-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.presentation .text-container p {
+    font-size: 1.5em;
+    line-height: 1.4;
+}
+
+/* Styles pour la section produits */
+.section-products {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #000; /* Couleur de fond noire */
+    color: white;
+}
+
+.section-products h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.section-products p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: #fff;
+    color: black;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+.product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-item h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.product-item p {
+    padding: 0 20px 20px;
+}
+
+.view-products-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.view-products-button:hover {
+    background-color: white;
+    color: black;
+}
+/* Styles pour le footer */
+footer {
+    background-color: #333; /* Couleur de fond sombre */
+    color: white; /* Couleur du texte blanche */
+    padding: 40px 20px; /* Augmentez le padding pour agrandir le footer */
+    text-align: center;
+    font-size: 1.2em; /* Augmentez la taille de la police */
+}
+
+footer p {
+    margin: 10px 0; /* Augmentez les marges pour plus d'espace entre les paragraphes */
+}
+
+footer p a {
+    color: white; /* Lien blanc */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+footer p a:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
+
+footer nav {
+    background-color: #333;
+    margin-left: 500px;
+    text-align: center;
+}
+footer ul {
+    list-style: none; /* Retire les puces de la liste */
+    padding: 0;
+}
+
+footer ul li {
+    display: inline; /* Affiche les éléments de la liste en ligne */
+    margin: 0 10px; /* Ajoute un espacement entre les éléments */
+}
+
+
+
+form {
+    width: 100%;
+    max-width: 600px; 
+    margin-left: 300px;
+   
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea, form label {
+    margin-bottom: 10px;
+}
+
+
+/* Media Queries pour réactivité */
+@media (max-width: 768px) {
+    body .page {
+        margin: 20px;
+    }
+
+    form {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    nav .logo, #logo {
+        height: 40px;
+    }
+
+    nav .onglets a, #MenuHaut a {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    nav .boutons, #boutonsD {
+        padding: 10px;
+    }
+
+    nav .boutons button, #boutonsD .bouton {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body .page {
+        margin: 10px;
+    }
+
+    form {
+        width: 95%;
+        margin: 0 auto;
+    }
+}

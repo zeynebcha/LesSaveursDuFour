@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<categories>
+    <categorie> 
+        <nom>Nos Pains</nom>
+        <code>0</code> 
+    </categorie>
+
+    <categorie> 
+        <nom>Nos Viennoiseries</nom>
+        <code>1</code> 
+    </categorie>
+
+    <categorie> 
+        <nom>Nos Patisseries</nom>
+        <code>2</code> 
+    </categorie>
+    
+</categories>
